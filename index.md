@@ -2,11 +2,13 @@
 <html lang="eng">
 	<head>
 		<title>My CV Website</title>
+		<!--My CSS-->
 		<link rel="stylesheet" href="style.css">
-		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- Material Design Bootstrap -->
-		<link rel="stylesheet" href="css/mdb.min.css">
+		<!--ANIMATION-->
+			<!-- Bootstrap core CSS -->
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<!-- Material Design Bootstrap -->
+			<link rel="stylesheet" href="css/mdb.min.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,7 +19,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-		<!--ANIMATION-->
+		
 		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	</head>
 	<body>
@@ -30,7 +32,7 @@
 						<div class="col-sm-5 col-lg-6">
 							<div class="media">
 								<div class="media-left media-bottom">
-									<img src="personcv.jpg" class="rounded-circle" alt="person-portrait" width="204" height="204"> 
+									<img src="personcv.jpg" class="rounded-circle" width="204" height="204"> 
 								</div>
 								<div class="media-body">
 									<h5>Hi, I am</h5>
