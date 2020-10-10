@@ -27,7 +27,7 @@
 				<div class="jumbotron">
 					<div class="row">
 						
-						<div class="col-sm-5 col-lg-6 mt-3">
+						<div class="col-sm-5 col-lg-6 mt-3 media-responsive">
 							<div class="media">
 								<img src="Lenna.png" class="rounded-circle media-left media-bottom mr-3 mt-3" alt="person-portrait" width="204" height="204"> 
 								<div class="media-body">
@@ -36,7 +36,7 @@
 								 </div>
 							</div>
 						</div>
-						<div class="col-sm-7 col-lg-6">
+						<div class="col-sm-7 col-lg-6 info-responsive">
 							<p>
 								<i class="fa fa_banner fa-briefcase"></i>
 								Electrical and Computer Engineer
