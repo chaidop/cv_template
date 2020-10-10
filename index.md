@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Font Awesome CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 		
 		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -30,17 +30,11 @@
 				<div class="jumbotron">
 					<div class="row">
 						<div class="col-sm-5 col-lg-6">
-							<div class="media">
-								<div class="media-left media-bottom">
-									<img src="personcv.jpg" class="rounded-circle" width="204" height="204"> 
-								</div>
-								<div class="media-body">
-									<h5>Hi, I am</h5>
-									<h3><strong>John Doe!</strong></h3>
-								 </div>
-							</div>
+							<img src="Lenna.png" class="rounded-circle" alt="person-portrait" style="width:198px;height:198px;"> 
+							<h5>Hi, I am</h5>
+							<h3><strong>John Doe!</strong></h3>
 						</div>
-						<div class="col-sm-7 col-lg-6">
+						<div class="col-sm-7 col-lg-6" style="padding:15px;">
 							<p>
 								<i class="fa fa_banner fa-briefcase"></i>
 								Electrical and Computer Engineer
@@ -76,7 +70,7 @@
 			<!--Second line- contains skills, education and working experience-->
 			<div class="row">
 				<!--1st column->>Skills,languages and hobbies container-->
-				<div class="left-col sticknote animated bounceInDown">
+				<div class="left-col animated bounceInDown">
 					<!--SKILLS-->
 					<div>
 						<h3><p>Skills:</p></h3>
