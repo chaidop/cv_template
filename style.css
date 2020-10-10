@@ -127,8 +127,11 @@ div.progress-bar{
   .right-col{
     width: 80%;
   }
-  div.jumbotron div{
-	  width: 80%;
+  .info-responsive{
+	width: 80%;
+  }
+ .media-responsive{
+	 width:80%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -144,8 +147,11 @@ div.progress-bar{
   .right-col{
     width: 100%;
   }
-  div.jumbotron div{
+  .info-responsive{
 	  width: 100%;
+  }
+.media-responsive{
+	 width:100%;
   }
 }
 
