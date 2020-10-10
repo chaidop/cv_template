@@ -55,14 +55,6 @@ nav.breadcrumb-item{
 	background-color: #ebdfe7;
 }
 
-div.sticknote{
-	padding: 20px;
-	margin:25px;
-	/*height: 240px;*/
-	width: 25%;
-	box-shadow:10px 10px 10px grey;
-	
-}
 
 div.progress-bar{
 	background-color:#d0bdf4;
@@ -73,26 +65,38 @@ div.progress-bar{
 }
 
 
+/* Left column */
+.left-col {
+  width: 25%;
+  border:none;
+  text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 20px;
+	margin:25px;
+	box-shadow:10px 10px 10px grey;
+}
 /* Middle column */
 .middle-col {
+  border: 1px dotted magenta;
   width: 40%;
   margin-right:10px;
   padding:10px;
-   text-overflow: ellipsis;
- overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
  
 }
 
 /* Right column */
 .right-col {
+  border: 1px dotted magenta;
   width: 35%;
   padding:10px;
-   text-overflow: ellipsis;
-	overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
   
 }
 
-@media screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   .middle-col{
     width: 35%;
   }
@@ -100,30 +104,52 @@ div.progress-bar{
     width: 30%;
   }
 }
-@media screen and (max-width: 300px) {
+
+
+
+[class*="-col"] {
+  float: left;
+  
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	/*For Tablets*/
+  
+   .left-col{
+    width: 80%;
+  }
+  .middle-col{
+    width: 80%;
+  }
+  
+  .right-col{
+    width: 80%;
+  }
+  div.jumbotron div{
+	  width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+	/*For phones*/
+  
+   .left-col{
+    width: 100%;
+  }
+  
   .middle-col{
     width: 100%;
   }
   .right-col{
     width: 100%;
   }
+  div.jumbotron div{
+	  width: 100%;
+  }
 }
 
 
-
-[class*="-col"] {
-  float: left;
-  border: 1px dotted magenta;
-}
-
-
-/* Left column */
-.left-col {
-  width: 25%;
-  border:none;
-   text-overflow: ellipsis;
- overflow: hidden;
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -133,11 +159,11 @@ div.progress-bar{
 
 .col3 {
   float: left;
-  width: 40%;
+  width: 50%;
 }
 .col4 {
   float: left;
-  width: 40%;
+  width: 50%;
 }
 
 
@@ -156,3 +182,8 @@ body {
   padding: 20px;
   background color: #f1f1f1;
 }
+div h5,
+div img {
+    
+    vertical-align: middle;
+}​
