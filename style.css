@@ -194,9 +194,13 @@ div img {
     vertical-align: middle;
 }​
 
+ul {
+  background: #3399ff;
+  padding: 10px;
+}
+
 ul li {
   background: #ffe5e5;
   padding: 5px;
-  margin: 5px
+  margin: 5px;
 }
-
